@@ -8,11 +8,11 @@ START_BOT = [
     [
         InlineKeyboardButton(
             text="😍 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍",
-            url=f"https://t.me/{nexichat.username}?startgroup=true",
+            url=f"https://t.me/{nexichat.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="ᯓ𓆰 𝅃ᴋsᴅ™ ٭ - 𓆪ꪾ⌯ 🜲 ˹ 𝐎ᴘ ˼ ", user_id=OWNER),
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
@@ -23,13 +23,13 @@ START_BOT = [
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="ᯓ𓆰 𝅃ᴋsᴅ™ ٭ - 𓆪ꪾ⌯ 🜲 ˹ 𝐎ᴘ ˼ ", user_id=OWNER),
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
             text="✦ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✦",
-            url=f"https://t.me/{nexichat.username}?startgroup=true",
+            url=f"https://t.me/{nexichat.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
         ),
     ],
     [
@@ -45,7 +45,7 @@ PNG_BTN = [
     [
         InlineKeyboardButton(
             text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
-            url=f"https://t.me/{nexichat.username}?startgroup=true",
+            url=f"https://t.me/{nexichat.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
         ),
     ],
     [
